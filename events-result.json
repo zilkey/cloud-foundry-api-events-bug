@@ -1,0 +1,120 @@
+{
+  "total_results": 4,
+  "total_pages": 1,
+  "prev_url": null,
+  "next_url": null,
+  "resources": [
+    {
+      "metadata": {
+        "guid": "f5e42610-dfa0-40b6-9de6-277edfd903d3",
+        "url": "/v2/events/f5e42610-dfa0-40b6-9de6-277edfd903d3",
+        "created_at": "2016-11-16T22:05:16Z",
+        "updated_at": null
+      },
+      "entity": {
+        "type": "audit.app.update",
+        "actor": "c46da2a1-7e51-4cb8-975b-85ba17a6701b",
+        "actor_type": "user",
+        "actor_name": "jeff@galvanize.com",
+        "actee": "2015a63f-d482-47ac-a702-7eb4f44cc016",
+        "actee_type": "app",
+        "actee_name": "events-test",
+        "timestamp": "2016-11-16T22:05:16Z",
+        "metadata": {
+          "request": {
+            "state": "STARTED"
+          }
+        },
+        "space_guid": "6ceb85df-ccd3-4560-9e30-0d4d2f032ea1",
+        "organization_guid": "f27de84e-98f4-42d6-8a18-c7443708cfe4"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3d5474db-2139-408d-a976-dcddcf9e7cab",
+        "url": "/v2/events/3d5474db-2139-408d-a976-dcddcf9e7cab",
+        "created_at": "2016-11-16T22:05:05Z",
+        "updated_at": null
+      },
+      "entity": {
+        "type": "audit.app.update",
+        "actor": "c46da2a1-7e51-4cb8-975b-85ba17a6701b",
+        "actor_type": "user",
+        "actor_name": "jeff@galvanize.com",
+        "actee": "2015a63f-d482-47ac-a702-7eb4f44cc016",
+        "actee_type": "app",
+        "actee_name": "events-test",
+        "timestamp": "2016-11-16T22:05:05Z",
+        "metadata": {
+          "request": {
+            "route": "d772a151-0c88-47ee-b024-e576be74e39d",
+            "verb": "add",
+            "relation": "routes",
+            "related_guid": "d772a151-0c88-47ee-b024-e576be74e39d"
+          }
+        },
+        "space_guid": "6ceb85df-ccd3-4560-9e30-0d4d2f032ea1",
+        "organization_guid": "f27de84e-98f4-42d6-8a18-c7443708cfe4"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "def23f25-377e-4123-a338-62d1a87322b6",
+        "url": "/v2/events/def23f25-377e-4123-a338-62d1a87322b6",
+        "created_at": "2016-11-16T22:05:05Z",
+        "updated_at": null
+      },
+      "entity": {
+        "type": "audit.app.map-route",
+        "actor": "c46da2a1-7e51-4cb8-975b-85ba17a6701b",
+        "actor_type": "user",
+        "actor_name": "jeff@galvanize.com",
+        "actee": "2015a63f-d482-47ac-a702-7eb4f44cc016",
+        "actee_type": "app",
+        "actee_name": "events-test",
+        "timestamp": "2016-11-16T22:05:05Z",
+        "metadata": {
+          "route_guid": "d772a151-0c88-47ee-b024-e576be74e39d",
+          "app_port": 8080,
+          "route_mapping_guid": "99577370-2df0-4d9f-8fec-25eff75e29bc",
+          "process_type": "web"
+        },
+        "space_guid": "6ceb85df-ccd3-4560-9e30-0d4d2f032ea1",
+        "organization_guid": "f27de84e-98f4-42d6-8a18-c7443708cfe4"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "52f88b2e-0419-4804-ac19-56e9617b367d",
+        "url": "/v2/events/52f88b2e-0419-4804-ac19-56e9617b367d",
+        "created_at": "2016-11-16T22:05:03Z",
+        "updated_at": null
+      },
+      "entity": {
+        "type": "audit.app.create",
+        "actor": "c46da2a1-7e51-4cb8-975b-85ba17a6701b",
+        "actor_type": "user",
+        "actor_name": "jeff@galvanize.com",
+        "actee": "2015a63f-d482-47ac-a702-7eb4f44cc016",
+        "actee_type": "app",
+        "actee_name": "events-test",
+        "timestamp": "2016-11-16T22:05:03Z",
+        "metadata": {
+          "request": {
+            "name": "events-test",
+            "space_guid": "6ceb85df-ccd3-4560-9e30-0d4d2f032ea1",
+            "console": false,
+            "docker_credentials_json": "PRIVATE DATA HIDDEN",
+            "environment_json": "PRIVATE DATA HIDDEN",
+            "health_check_type": "port",
+            "instances": 1,
+            "production": false,
+            "state": "STOPPED"
+          }
+        },
+        "space_guid": "6ceb85df-ccd3-4560-9e30-0d4d2f032ea1",
+        "organization_guid": "f27de84e-98f4-42d6-8a18-c7443708cfe4"
+      }
+    }
+  ]
+}
