@@ -80,7 +80,7 @@ public class CfDemoApplication {
 
         List<ApplicationEvent> events;
 
-        for (int i = 0; i < 20; i++)  {
+        for (int i = 1; i < 5; i++)  {
             System.out.println("Getting " + i + " events");
             events = cloudFoundryOperations
                     .applications()
